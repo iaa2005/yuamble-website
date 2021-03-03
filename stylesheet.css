@@ -79,6 +79,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 .logo-text:hover {
     cursor: pointer;
