@@ -226,7 +226,7 @@ body {
 .block2-in {
     display: inline-flex;
     width: -webkit-fill-available;
-    height: auto;
+    height: fit-content;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px white;
@@ -250,7 +250,7 @@ body {
 .block3-in {
     display: inline-flex;
     width: -webkit-fill-available;
-    height: auto;
+    height: fit-content;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px #1c1c1c;
