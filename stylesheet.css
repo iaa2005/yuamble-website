@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Balgin Bold';
-    src: url('assets/Balgin/Balgin Bold.ttf') format('truetype')
+    src: url('../assets/Balgin/Balgin Bold.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Balgin Semi Bold';
-    src: url('assets/Balgin/Balgin Semi Bold.ttf') format('truetype')
+    src: url('../assets/Balgin/Balgin Semi Bold.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Balgin Light';
-    src: url('assets/Balgin/Balgin Light.ttf') format('truetype')
+    src: url('../assets/Balgin/Balgin Light.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Balgin Light Sm Condensed';
-    src: url('assets/Balgin/Balgin Light Sm Condensed.ttf') format('truetype')
+    src: url('../assets/Balgin/Balgin Light Sm Condensed.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Rubik Bold';
-    src: url('assets/Rubik/Rubik-Bold.ttf') format('truetype')
+    src: url('../assets/Rubik/Rubik-Bold.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Rubik Semi Bold';
-    src: url('assets/Rubik/Rubik-SemiBold.ttf') format('truetype')
+    src: url('../assets/Rubik/Rubik-SemiBold.ttf') format('truetype')
 }
 @font-face {
     font-family: 'Rubik Light';
-    src: url('assets/Rubik/Rubik-Light.ttf') format('truetype')
+    src: url('../assets/Rubik/Rubik-Light.ttf') format('truetype')
 }
 body {
     margin: 0;
@@ -218,19 +218,15 @@ body {
     font-weight: 700;
 }
 .block2 {
-    height: auto;
+    height: fit-content;
     width: auto;
     padding-left: 75px;
     padding-right: 75px;
 }
 .block2-in {
     display: inline-flex;
-    /*padding-left: 60px;*/
-    /*padding-right: 60px;*/
-    /*padding-top: 80px;*/
-    /*padding-bottom: 80px;*/
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    height: fit-content;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px white;
@@ -240,6 +236,7 @@ body {
 }
 .image-1 {
     width: 35%;
+    height: intrinsic;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -248,17 +245,13 @@ body {
     padding-right: 75px;
     padding-left: 75px;
     background-color: white;
-    height: auto;
+    height: fit-content;
     width: auto;
 }
 .block3-in {
     display: inline-flex;
-    /*padding-left: 60px;*/
-    /*padding-right: 60px;*/
-    /*padding-top: 80px;*/
-    /*padding-bottom: 80px;*/
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    height: fit-content;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px #1c1c1c;
@@ -268,9 +261,10 @@ body {
 }
 .image-2 {
     width: 35%;
+    height: intrinsic;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 .h1-dark {
     font-family: system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
