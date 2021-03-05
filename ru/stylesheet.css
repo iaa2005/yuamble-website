@@ -218,19 +218,15 @@ body {
     font-weight: 700;
 }
 .block2 {
-    height: auto;
+    height: fit-content;
     width: auto;
     padding-left: 75px;
     padding-right: 75px;
 }
 .block2-in {
     display: inline-flex;
-    /*padding-left: 60px;*/
-    /*padding-right: 60px;*/
-    /*padding-top: 80px;*/
-    /*padding-bottom: 80px;*/
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    height: auto;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px white;
@@ -248,17 +244,13 @@ body {
     padding-right: 75px;
     padding-left: 75px;
     background-color: white;
-    height: auto;
+    height: fit-content;
     width: auto;
 }
 .block3-in {
     display: inline-flex;
-    /*padding-left: 60px;*/
-    /*padding-right: 60px;*/
-    /*padding-top: 80px;*/
-    /*padding-bottom: 80px;*/
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    height: auto;
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 1px #1c1c1c;
