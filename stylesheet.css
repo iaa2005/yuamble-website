@@ -559,12 +559,10 @@ footer {
     .menu-button {
         display: flex;
         float: right;
-        margin-right: 5rem;
-        margin-left: auto;
-        padding-top: 0.75rem;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        padding-bottom: 1.25rem;
+        margin-right: 30px;
+        padding-left: 15px;
+        padding-top: 12px;
+        padding-right: 40px;
     }
     .menu-button-burger::before,
     .menu-button-burger::after {
@@ -589,7 +587,7 @@ footer {
         position: fixed;
     }
     .pre-header.open {
-        height: 300px;
+        height: 345px;
         overflow: hidden;
         background: linear-gradient(#1c1c1c 99%, #2b2b2b);
         /* transition: height 1s ease-out 0.5s;
@@ -616,6 +614,7 @@ footer {
         font-size: 28px;
         font-weight: 400;
         color: #dddddd;
+        text-decoration: none;
     }
     .menu-mobile-text:hover {
         color: #d9e021;
