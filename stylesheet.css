@@ -523,10 +523,9 @@ footer {
     list-style-type: none;
     display: none;
     background: #d9e021;
-    top: 100%;
-    width: auto;
+    width: fit-content;
     padding-left: 0;
-    margin-top: -10px;
+    margin-top: 15px;
     margin-left: -70px;
 }
 .dropdown_items:hover .dropdown_items{
