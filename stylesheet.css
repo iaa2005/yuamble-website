@@ -27,8 +27,8 @@
     src: url('assets/Rubik/Rubik-Light.ttf') format('truetype')
 }
 @font-face {
-    font-family: 'Rubik Light';
-    src: url('assets/Rubik/Rubik-Light.ttf') format('truetype')
+    font-family: 'Druk';
+    src: url('assets/Druk/Druk Wide Bold.otf') format('opentype')
 }
 body {
     margin: 0;
@@ -89,7 +89,7 @@ body {
     height: 2rem;
 }
 .logo-text {
-    font-family: 'Balgin Semi Bold', 'Rubik Bold', serif;
+    font-family: 'Druk', 'Balgin Semi Bold', 'Rubik Bold', serif;
     color: white;
     font-size: 24px;
     margin-left: 75px;
