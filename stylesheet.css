@@ -32,7 +32,8 @@
 }
 body {
     margin: 0;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
+    background-color: #000000;
     height: 150vh;
 }
 .pre-header {
@@ -46,7 +47,8 @@ body {
     padding-top: 21px;
     padding-bottom: 21px;
     display: block;
-    background: linear-gradient(#1c1c1c 99%, #2b2b2b);
+    /* background: linear-gradient(#1c1c1c 99%, #2b2b2b); */
+    background: linear-gradient(#000000 98%, #2b2b2b);
     z-index: 1;
     transition: height ease-out 0.4s;
     /* transition: background 1s ease-out 0.5s; */
@@ -196,6 +198,10 @@ body {
     width: 100%;
     height: auto;
     max-height: 100vh;
+    /* 3d image */
+    background: url("./3d-yuamble.webp");
+    background-position: -20vw;
+    background-size: cover;
 }
 #text-h1-block1 {
     position: relative;
@@ -558,6 +564,7 @@ footer {
 /* --------------------------- */
 .menu-button {display: none}
 .mobile-menu {display: none}
+
 @media screen and (max-width: 840px) {
     .menu-button {
         display: flex;
@@ -592,7 +599,8 @@ footer {
     .pre-header.open {
         height: 345px;
         overflow: hidden;
-        background: linear-gradient(#1c1c1c 99%, #2b2b2b);
+        background: linear-gradient(#000000 99%, #2b2b2b);
+        /* background: linear-gradient(#1c1c1c 99%, #2b2b2b); */
         /* transition: height 1s ease-out 0.5s;
         transition: background 1s ease-out 0.5s; */
     }
@@ -646,9 +654,18 @@ footer {
         display: block;
     }
     .block1 {
-        padding-top: 60px;
+        /* padding-top: 60px;
         height: auto;
-        display: contents;
+        display: contents; */
+
+        padding-top: 60px;
+        height: 100vh;
+        display: inline-table;
+        background-image: url(./3d-yuamble-new.webp);
+        background-size: min(200vh, 250vw);
+        background-position: center max(-70vw, -70vh);
+        background-repeat: no-repeat;
+
     }
     #logo-image-div2-device {
         width: 70%;
@@ -656,11 +673,13 @@ footer {
     }
     #text-h1-block1 {
         position: relative;
-        padding-top: 0;
+        /* padding-top: 0; */
         padding-bottom: 0;
         margin-left: 45px;
         margin-right: 45px;
         margin-bottom: 45px;
+
+        padding-top: 70vh;
     }
     .block-get-started {
         display: grid;
@@ -822,4 +841,12 @@ footer {
         margin-top: auto;
         margin-bottom: auto;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .block1 {
+        background-position: center -50vw;
+
+    }
+
 }
