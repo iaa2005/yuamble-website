@@ -202,6 +202,7 @@ body {
     background: url(./3d-yuamble-new.webp);
     background-position: -20vw;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #text-h1-block1 {
     position: relative;
