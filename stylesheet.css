@@ -199,7 +199,7 @@ body {
     height: auto;
     max-height: 100vh;
     /* 3d image */
-    background: url(./3d-yuamble-new.webp);
+    background: url(./assets/images/3d-yuamble-new.jpeg);
     background-position: -20vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -662,7 +662,7 @@ footer {
         padding-top: 60px;
         height: 100vh;
         display: inline-table;
-        background-image: url(./3d-yuamble-new.webp);
+        background-image: url(./assets/images/3d-yuamble-new.jpeg);
         background-size: min(200vh, 250vw);
         background-position: center max(-70vw, -70vh);
         background-repeat: no-repeat;
