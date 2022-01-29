@@ -62,12 +62,13 @@ body {
     margin-left: auto;
 } */
 .h-menu {
+    text-decoration: none;
     font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', serif;
     font-size: 18px;
     color: #dddddd;
     margin-right: 25px;
     vertical-align: -webkit-baseline-middle;
-    font-weight: 500;
+    font-weight: 400;
 }
 .h-menu:hover {
     cursor: pointer;
