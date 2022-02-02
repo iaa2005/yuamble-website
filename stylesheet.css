@@ -1,31 +1,39 @@
-@font-face {
-    font-family: 'Balgin Bold';
-    src: url('assets/fonts/Balgin/Balgin Bold.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Balgin Semi Bold';
-    src: url('assets/fonts/Balgin/Balgin Semi Bold.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Balgin Light';
-    src: url('assets/fonts/Balgin/Balgin Light.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Balgin Light Sm Condensed';
-    src: url('assets/fonts/Balgin/Balgin Light Sm Condensed.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Rubik Bold';
-    src: url('assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Rubik Semi Bold';
-    src: url('assets/fonts/Rubik/Rubik-SemiBold.ttf') format('truetype')
-}
-@font-face {
-    font-family: 'Rubik Light';
-    src: url('assets/fonts/Rubik/Rubik-Light.ttf') format('truetype')
-}
+/*@font-face {*/
+/*    font-family: 'Balgin Bold';*/
+/*    src: url('assets/fonts/Balgin/Balgin Bold.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Balgin Semi Bold';*/
+/*    src: url('assets/fonts/Balgin/Balgin Semi Bold.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Balgin Light';*/
+/*    src: url('assets/fonts/Balgin/Balgin Light.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Balgin Light Sm Condensed';*/
+/*    src: url('assets/fonts/Balgin/Balgin Light Sm Condensed.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Rubik Bold';*/
+/*    src: url('assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Rubik Semi Bold';*/
+/*    src: url('assets/fonts/Rubik/Rubik-SemiBold.ttf') format('truetype')*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'Rubik Light';*/
+/*    src: url('assets/fonts/Rubik/Rubik-Light.ttf') format('truetype')*/
+/*}*/
+
+/*.Colors {*/
+/*    color: #d9e021;*/
+/*    color: #ffffff;*/
+/*    color: #000000;*/
+/*    color: #333333;*/
+/*}*/
+
 @font-face {
     font-family: 'Druk';
     src: url('assets/fonts/Druk/Druk Wide Bold.otf') format('opentype')
@@ -34,8 +42,8 @@ body {
     margin: 0;
     background-color: #ffffff;
     height: 150vh;
+    font-family:  system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
-
 .pre-header {
     width: -webkit-fill-available;
     max-width: 1450px;
@@ -61,9 +69,8 @@ body {
 }
 .h-menu {
     text-decoration: none;
-    font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', serif;
-    font-size: 18px;
-    color: #1c1c1c;
+    font-size: 16px;
+    color: #333333;
     margin-right: 25px;
     vertical-align: -webkit-baseline-middle;
     font-weight: 400;
@@ -73,10 +80,13 @@ body {
     cursor: pointer;
     transition: fill 0.2s ease-out;
     color: #d9e021;
+    /*font-weight: 600;*/
 }
 .icon-lang {
-    margin-right: 2px;
-    fill: #1c1c1c;
+    height: 22px;
+    width: 22px;
+    margin-right: 0px;
+    fill: #333333;
     vertical-align: -webkit-baseline-middle;
     transition: 0.2s;
     vertical-align: sub;
@@ -84,13 +94,9 @@ body {
 .languages-text {
     margin-right: 75px;
 }
-.logo-image {
-    width: 2rem;
-    height: 2rem;
-}
 .logo-text {
-    font-family: 'Druk', 'Balgin Semi Bold', 'Rubik Bold', serif;
-    color: #1c1c1c;
+    font-family: 'Druk', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: #333333;
     font-size: 24px;
     margin-left: 75px;
     margin-right: auto;
@@ -105,7 +111,6 @@ body {
     transition: fill 0.2s ease-in-out;
     color: #d9e021;
 }
-
 .animation {
     vertical-align: sub;
     height: 1em;
@@ -130,14 +135,13 @@ body {
 }
 .button {
     margin-top: 40px;
-    border: solid 1px #1c1c1c;
+    border: solid 1px #333333;
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 18px;
     padding-right: 18px;
     background: transparent;
-    color: #1c1c1c;
-    font-family: system-ui;
+    color: #333333;
     font-size: 18px;
     border-radius: 10px;
     outline: none;
@@ -145,10 +149,9 @@ body {
 }
 .button:hover {
     cursor: pointer;
-    border: solid 1px #1c1c1c;
-    background: #1c1c1c;
+    border: solid 1px #333333;
+    background: #333333;
     color: #ffffff;
-    font-family: system-ui;
     font-size: 18px;
     border-radius: 10px;
 }
@@ -160,8 +163,7 @@ body {
     padding-left: 18px;
     padding-right: 18px;
     background: #d9e021;
-    color: #1c1c1c;
-    font-family: system-ui;
+    color: #333333;
     font-size: 18px;
     border-radius: 10px;
     outline: none;
@@ -169,31 +171,19 @@ body {
 }
 .button-2:hover {
     cursor: pointer;
-    background: #1c1c1c;
+    background: #333333;
     color: #ffffff;
-    font-family: system-ui;
     transition: 0.2s;
 }
 .h1-pre-title {
-    font-family:  system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 35px;
-    color: #000000;
-    font-weight: 600;
+    color: #333333;
+    font-weight: 700;
 }
 .h2-pre-title {
-    font-family:  system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 21px;
-    color: #242424;
+    color: #333333;
     font-weight: 400;
-}
-.block1 {
-    height: 500px;
-    width: 100%;
-    max-height: 100vh;
-    background: url(./assets/images/3d-yuamble-new.jpeg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .text-h1-block1 {
     display: inherit;
@@ -222,15 +212,13 @@ body {
     margin-left: 75px;
 }
 .h1-pre {
-    font-family:  system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 35px;
-    color: #000000;
+    color: #333333;
     font-weight: 600;
 }
 .h2-pre {
-    font-family:  system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', serif;
     font-size: 24px;
-    color: #242424;
+    color: #333333;
     font-weight: 400;
 }
 .block2 {
@@ -281,15 +269,13 @@ body {
     border-radius: 12px;
 }
 .h1-block {
-    font-family: system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 32px;
-    color: #000000;
+    color: #333333;
     font-weight: 600;
 }
 .h2-block {
-    font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', 'Rubik Light', serif;
     font-size: 22px;
-    color: #242424;
+    color: #333333;
     font-weight: 400;
     line-height: 130%;
 }
@@ -351,14 +337,13 @@ body {
 }
 .button-3 {
     margin-top: 40px;
-    border: solid 1px #1c1c1c;
+    border: solid 1px #333333;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 13px;
     padding-right: 13px;
     background: transparent;
-    color: #1c1c1c;
-    font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', 'Rubik Light', serif;
+    color: #333333;
     font-size: 15px;
     border-radius: 7px;
     outline: none;
@@ -368,16 +353,15 @@ body {
 .button-3:hover {
     text-align: center;
     cursor: pointer;
-    border: solid 1px #1c1c1c;
-    background: #1c1c1c;
+    border: solid 1px #333333;
+    background: #333333;
     color: #ffffff;
-    font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', 'Rubik Light', serif;
     font-size: 15px;
     border-radius: 7px;
     display: flex;
 }
 #button-github {
-    fill: #1c1c1c;
+    fill: #333333;
     transition: 0.2s;
 }
 .button-3:hover #button-github {
@@ -396,7 +380,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 .table-in {
-    color: rgb(0, 0, 0);
+    color: #333333;
     height: 20rem;
     display: flex;
     flex-direction: column;
@@ -409,22 +393,19 @@ body {
 .h-table-1 {
     font-size: 26px;
     margin-bottom: 0.5rem;
-    color: rgb(0, 0, 0);
+    color: #333333;
     text-transform: uppercase;
-    font-family: system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-weight: 600;
 }
 .h-table-2 {
     font-size: 21px;
-    color: #242424;
-    font-family: system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', serif;
+    color: #333333;
     font-weight: 400;
     line-height: 140%;
 }
 .h-max {
     font-size: 68px;
-    color: rgb(0, 0, 0);
-    font-family:  system-ui, 'Rubik Light', 'Balgin Light Sm Condensed', serif;
+    color: #333333;
     font-weight: 600;
     letter-spacing: 2px;
     padding-bottom: 21px;
@@ -436,7 +417,6 @@ footer {
     background-color: #f7f7f7;
 }
 .h3 {
-    font-family: system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 18px;
     font-weight: 600;
     color: #d9e021;
@@ -455,7 +435,7 @@ footer {
 }
 .icon-link {
     margin-left: 15px;
-    fill: #1c1c1c;
+    fill: #333333;
 }
 .icon-link:hover {
     cursor: pointer;
@@ -470,13 +450,12 @@ footer {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: -40px;
-    font-family: system-ui, 'Balgin Semi Bold', 'Rubik Semi Bold', serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .li-footer a {
     text-decoration: none;
-    color: #1c1c1c;
+    color: #333333;
 }
 .li-footer a:hover {
     cursor: pointer;
@@ -489,32 +468,32 @@ footer {
 .hat_text:hover .languages-text{
     color: #d9e021;
 }
-.down_clipart {
-    margin-left: 0.4em;
-    height: 0.5em;
-}
-.dropdown_items {
-    position: absolute;
-    list-style-type: none;
-    display: none;
-    background: #d9e021;
-    width: fit-content;
-    padding-left: 0;
-    margin-top: 15px;
-    margin-left: -70px;
-}
-.dropdown_items:hover .dropdown_items{
-    display: block;
-}
-.dropdown_item_in {
-    padding: 10px;
-    color: white;
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.dropdown_item_in:hover {
-    background-color: #e5e995;
-}
+/*.down_clipart {*/
+/*    margin-left: 0.4em;*/
+/*    height: 0.5em;*/
+/*}*/
+/*.dropdown_items {*/
+/*    position: absolute;*/
+/*    list-style-type: none;*/
+/*    display: none;*/
+/*    background: #d9e021;*/
+/*    width: fit-content;*/
+/*    padding-left: 0;*/
+/*    margin-top: 15px;*/
+/*    margin-left: -70px;*/
+/*}*/
+/*.dropdown_items:hover .dropdown_items{*/
+/*    display: block;*/
+/*}*/
+/*.dropdown_item_in {*/
+/*    padding: 10px;*/
+/*    color: white;*/
+/*    display: list-item;*/
+/*    text-align: -webkit-match-parent;*/
+/*}*/
+/*.dropdown_item_in:hover {*/
+/*    background-color: #e5e995;*/
+/*}*/
 .hat_text {
     text-align: left;
     cursor: pointer;
@@ -549,7 +528,7 @@ footer {
         content: '';
         height: 2px;
         width: 25px;
-        background: #1c1c1c;
+        background: #333333;
         transition: all .3s ease-in-out;
     }
     .menu-button-burger::after {
@@ -587,10 +566,9 @@ footer {
         opacity: 100%;
     }
     .menu-mobile-text {
-        font-family: system-ui, serif;
         font-size: 28px;
         font-weight: 400;
-        color: #1c1c1c;
+        color: #333333;
         text-decoration: none;
     }
     .menu-mobile-text:hover {
@@ -609,36 +587,19 @@ footer {
     .device-image {
         display: block;
     }
-    .menu-header {
-        display: none;
-    }
     .desktop-image {
         display: none;
     }
-    .logo-image-div {
-        display: none;
-    }
-    .logo-image-div-device {
-        display: block;
-    }
-    .block1 {
-        /* padding-top: 60px;
-        height: auto;
-        display: contents; */
-
-        padding-top: 60px;
-        height: 100vh;
-        display: inline-table;
-        background-image: url(./assets/images/3d-yuamble-new.jpeg);
-        background-size: min(200vh, 250vw);
-        background-position: center max(-70vw, -70vh);
-        background-repeat: no-repeat;
-
-    }
-    #logo-image-div2-device {
-        width: 70%;
-        margin: 130px auto 70px auto
-    }
+    /*.logo-image-div {*/
+    /*    display: none;*/
+    /*}*/
+    /*.logo-image-div-device {*/
+    /*    display: block;*/
+    /*}*/
+    /*#logo-image-div2-device {*/
+    /*    width: 70%;*/
+    /*    margin: 130px auto 70px auto*/
+    /*}*/
     .text-h1-block1 {
         position: relative;
         padding-bottom: 0;
@@ -712,7 +673,7 @@ footer {
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-        border: solid 1px #1c1c1c;
+        border: solid 1px #333333;
         box-shadow: none;
         display: grid;
         border-radius: 7px;
@@ -722,7 +683,7 @@ footer {
         background-color: #f6faf0;
         width: -webkit-fill-available;
         height: auto;
-        border: solid 1px #1c1c1c;
+        border: solid 1px #333333;
         box-shadow: none;
     }
     .block-contribute {
@@ -764,7 +725,7 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
     .table-in {
-        color: #1c1c1c;
+        color: #333333;
         height: 19rem;
         display: flex;
         flex-direction: column;
@@ -790,12 +751,4 @@ footer {
         margin-bottom: auto;
         border-radius: 0;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .block1 {
-        background-position: center -50vw;
-
-    }
-
 }

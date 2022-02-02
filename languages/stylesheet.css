@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Druk';
+    src: url('../assets/fonts/Druk/Druk Wide Bold.otf') format('opentype')
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+    height: 150vh;
+    font-family:  system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.pre-header {
+    width: -webkit-fill-available;
+    max-width: 1450px;
+    margin: 0px auto;
+    top: 0;
+    left: 0;
+    height: 35px;
+    position: sticky;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: block;
+    background: linear-gradient(#ffffff 97%, #dbdbdb);
+    z-index: 1;
+    transition: height ease-out 0.4s;
+}
+.header {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    position: sticky;
+}
+.h-menu {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333333;
+    margin-right: 25px;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.h-menu:hover {
+    cursor: pointer;
+    transition: fill 0.2s ease-out;
+    color: #d9e021;
+    /*font-weight: 600;*/
+}
+.icon-lang {
+    height: 22px;
+    width: 22px;
+    margin-right: 0px;
+    fill: #333333;
+    vertical-align: -webkit-baseline-middle;
+    transition: 0.2s;
+    vertical-align: sub;
+}
+.languages-text {
+    margin-right: 75px;
+}
+.logo-text {
+    font-family: 'Druk', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: #333333;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.logo-text:hover {
+    cursor: pointer;
+    transition: fill 0.2s ease-in-out;
+    color: #d9e021;
+}
+.hat_text:hover #hat svg {
+    fill: #d9e021;
+}
+.hat_text:hover .languages-text{
+    color: #d9e021;
+}
+.hat_text {
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.hat_text:hover {
+    color: #d9e021;
+}
+.icon-link {
+    margin-left: 15px;
+    fill: #333333;
+}
+.icon-link:hover {
+    cursor: pointer;
+    fill: #d9e021;
+}
+.menu-button {display: none}
+.mobile-menu {display: none}
+@media screen and (max-width: 840px) {
+    .menu-button {
+        display: flex;
+        float: right;
+        margin-right: 30px;
+        padding-left: 15px;
+        padding-top: 12px;
+        padding-right: 40px;
+    }
+    .menu-button-burger::before,
+    .menu-button-burger::after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 25px;
+        background: #333333;
+        transition: all .3s ease-in-out;
+    }
+    .menu-button-burger::after {
+        transform: translateY(7px);
+    }
+    /*ANIMATION OPEN*/
+    .menu-button.open .menu-button-burger::before {
+        transform: rotate(45deg);
+    }
+    .menu-button.open .menu-button-burger::after {
+        transform: rotate(-45deg);
+    }
+    .pre-header {
+        position: fixed;
+    }
+    .pre-header.open {
+        height: 345px;
+        overflow: hidden;
+        background: linear-gradient(#ffffff 99%, #dbdbdb);
+    }
+    .mobile-menu {
+        display: grid;
+        grid-gap: 18px;
+        width: -webkit-fill-available;
+        position: absolute;
+        padding-top: 40px;
+        padding-right: 45px;
+        padding-left: 45px;
+        opacity: 0%;
+        transition: all .1s ease-in-out;
+    }
+    .mobile-menu.open {
+        margin-top: auto;
+        margin-bottom: auto;
+        opacity: 100%;
+    }
+    .menu-mobile-text {
+        font-size: 28px;
+        font-weight: 400;
+        color: #333333;
+        text-decoration: none;
+    }
+    .menu-mobile-text:hover {
+        color: #d9e021;
+    }
+    /* --------------------------- */
+    .hat_text {
+        display: none;
+    }
+    .menu-header {
+        display: none;
+    }
+    .icon-link {
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .icon-link:hover {
+        cursor: pointer;
+        fill: #d9e021;
+    }
+}
