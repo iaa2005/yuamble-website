@@ -587,6 +587,9 @@ footer {
     .device-image {
         display: block;
     }
+    .menu-header {
+        display: none;
+    }
     .desktop-image {
         display: none;
     }
