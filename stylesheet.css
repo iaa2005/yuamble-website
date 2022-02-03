@@ -120,18 +120,19 @@ body {
     text-align: start;
 }
 .ul-word {
-    animation: animation 14s infinite;
+    animation: animation 30s infinite;
     padding: 0;
     margin-top: -0.55em;
     list-style: none;
 }
 @keyframes animation {
-    18%        { margin-top: -0.55em }
-    34%     { margin-top: -2.54em }
-    50%       { margin-top: -4.55em }
-    66%     { margin-top: -6.55em }
-    82%       { margin-top: -8.5em }
-    96%     { margin-top: -10.45em }
+    14% { margin-top: -0.55em  }
+    28% { margin-top: -2.55em  }
+    42% { margin-top: -4.55em  }
+    56% { margin-top: -6.55em  }
+    68% { margin-top: -8.55em  }
+    83% { margin-top: -10.55em }
+    96% { margin-top: -12.55em }
 }
 .button {
     margin-top: 40px;
