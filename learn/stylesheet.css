@@ -132,7 +132,7 @@ body {
     color: #444444;
 }
 .image-what-is {
-    width: -webkit-fill-available;
+    width: auto;
     object-fit: scale-down;
 }
 .block-1 {
