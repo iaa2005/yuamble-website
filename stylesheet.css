@@ -44,6 +44,10 @@ body {
     height: 150vh;
     font-family:  system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #333333;
+}
 .pre-header {
     width: -webkit-fill-available;
     max-width: 1450px;
@@ -152,9 +156,11 @@ body {
     cursor: pointer;
     border: solid 1px #333333;
     background: #333333;
-    color: #ffffff;
     font-size: 18px;
     border-radius: 10px;
+}
+.button:hover a {
+    color: #ffffff;
 }
 .button-2 {
     margin-top: 40px;
