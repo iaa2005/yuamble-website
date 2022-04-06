@@ -1,31 +1,58 @@
-/*@font-face {*/
-/*    font-family: 'Balgin Bold';*/
-/*    src: url('assets/fonts/Balgin/Balgin Bold.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Balgin Semi Bold';*/
-/*    src: url('assets/fonts/Balgin/Balgin Semi Bold.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Balgin Light';*/
-/*    src: url('assets/fonts/Balgin/Balgin Light.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Balgin Light Sm Condensed';*/
-/*    src: url('assets/fonts/Balgin/Balgin Light Sm Condensed.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Rubik Bold';*/
-/*    src: url('assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Rubik Semi Bold';*/
-/*    src: url('assets/fonts/Rubik/Rubik-SemiBold.ttf') format('truetype')*/
-/*}*/
-/*@font-face {*/
-/*    font-family: 'Rubik Light';*/
-/*    src: url('assets/fonts/Rubik/Rubik-Light.ttf') format('truetype')*/
-/*}*/
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-Book.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-Black.ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-MediumItalic.ttf");
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-BookItalic.ttf");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-BoldItalic.ttf");
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url("assets/fonts/CircularStd/CircularStd-BlackItalic.ttf");
+    font-style: italic;
+    font-weight: 700;
+}
 
 /*.Colors {*/
 /*    color: #d9e021;*/
@@ -38,11 +65,12 @@
     font-family: 'Druk';
     src: url('assets/fonts/Druk/Druk Wide Bold.otf') format('opentype')
 }
+
 body {
     margin: 0;
     background-color: #ffffff;
     height: 150vh;
-    font-family:  system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: Circular, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -62,6 +90,13 @@ a:-webkit-any-link {
     background: linear-gradient(#ffffff 97%, #dbdbdb);
     z-index: 1;
     transition: height ease-out 0.4s;
+
+    /*background: rgba(255, 255, 255, 0.73);*/
+    /*top: 25px;*/
+    /*margin-left: 25px;*/
+    /*margin-right: 25px;*/
+    /*border-radius: 15px;*/
+    /*-webkit-backdrop-filter: blur(4px);*/
 }
 .header {
     width: -webkit-fill-available;
@@ -139,6 +174,7 @@ a:-webkit-any-link {
     96% { margin-top: -12.55em }
 }
 .button {
+    font-family: Circular, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin-top: 40px;
     border: solid 1px #333333;
     padding-top: 13px;
@@ -163,6 +199,7 @@ a:-webkit-any-link {
     color: #ffffff;
 }
 .button-2 {
+    font-family: Circular, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin-top: 40px;
     border: none;
     padding-top: 13px;
@@ -183,7 +220,7 @@ a:-webkit-any-link {
     transition: 0.2s;
 }
 .h1-pre-title {
-    font-size: 35px;
+    font-size: 36px;
     color: #333333;
     font-weight: 700;
 }
@@ -219,7 +256,7 @@ a:-webkit-any-link {
     margin-left: 75px;
 }
 .h1-pre {
-    font-size: 35px;
+    font-size: 36px;
     color: #333333;
     font-weight: 600;
 }
@@ -276,7 +313,7 @@ a:-webkit-any-link {
     border-radius: 12px;
 }
 .h1-block {
-    font-size: 32px;
+    font-size: 36px;
     color: #333333;
     font-weight: 600;
 }
@@ -343,6 +380,7 @@ a:-webkit-any-link {
     margin-bottom: auto;
 }
 .button-3 {
+    font-family: Circular, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin-top: 40px;
     border: solid 1px #333333;
     padding-top: 8px;
@@ -368,6 +406,7 @@ a:-webkit-any-link {
     display: flex;
 }
 #button-github {
+    font-family: Circular, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     fill: #333333;
     transition: 0.2s;
 }
