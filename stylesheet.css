@@ -811,7 +811,7 @@ footer {
         position: fixed;
     }
     .pre-header.open {
-        height: 345px;
+        height: 370px;
         overflow: hidden;
         background: linear-gradient(#ffffff 99%, #dbdbdb);
     }
