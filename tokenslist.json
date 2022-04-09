@@ -1,13 +1,13 @@
 {
   "name": "Yuamble List",
-  "timestamp": "2022-04-05T15:00:10Z",
+  "timestamp": "2022-04-05T00:00:00+00:00",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
   },
   "tags": {},
-  "logoURI": "ipfs://bafybeibn6ylrwuykmk3swoynixohwkrmwiis4wzwnug4u7cvjdqiehbqpi/ymb.png",
+  "logoURI": "https://yuamble.tk/assets/images/ymb.png",
   "keywords": [
     "audited",
     "verified",
@@ -20,7 +20,7 @@
       "name": "Yuamble",
       "symbol": "YMB",
       "decimals": 6,
-      "logoURI": "ipfs://bafybeic4ao3youvozvklgyfnpdkedokte752636ow6qz4udunaxltf3jv4/ymb-token.png"
+      "logoURI": "https://yuamble.tk/assets/images/ymb-token.png"
     }
   ]
 }
