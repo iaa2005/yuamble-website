@@ -439,6 +439,14 @@ a:-webkit-any-link {
     color: #ffffff;
     transition: 0.2s;
 }
+.pre-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .h1-pre-title {
     font-size: 36px;
     color: #333333;
@@ -872,12 +880,29 @@ footer {
     /*    width: 70%;*/
     /*    margin: 130px auto 70px auto*/
     /*}*/
+    .pre-block {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pre-block-contribute {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .text-h1-block1 {
         position: relative;
         padding-bottom: 0;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 45px;
+        padding: 40px;
     }
     .block-get-started {
         display: grid;
@@ -998,7 +1023,7 @@ footer {
     }
     .table-in {
         color: #333333;
-        height: 19rem;
+        /*height: 19rem;*/
         display: flex;
         flex-direction: column;
         -webkit-box-pack: justify;
@@ -1006,6 +1031,7 @@ footer {
         align-items: flex-start;
         border: 1px solid;
         padding: 1.5rem;
+        height: fit-content;
     }
     footer {
         width: -webkit-fill-available;
