@@ -853,7 +853,7 @@ footer {
     }
 /* --------------------------- */
     .image-start {
-        /*margin-top: 75px;*/
+        margin-top: 0px;
         /*margin-top: 105px;*/
     }
     .hat_text {
@@ -1049,5 +1049,12 @@ footer {
         margin-top: auto;
         margin-bottom: auto;
         border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .image-start {
+        margin-top: 130px;
+        /*margin-top: 105px;*/
     }
 }
